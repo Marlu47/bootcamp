@@ -78,7 +78,7 @@ for recado in nombre_lista:
 print("Disfruta!!")
 
 #range : para repetir palabras, puede hacerse tambien desde cierto numero eje: del 95 al 100. 
-for x in range(10):
+for x in range(5):#[0,1,2,3,4]
     print("HOLA",x)
  
  #ej imprimir los numeros del 1 al 100 usando for y range 

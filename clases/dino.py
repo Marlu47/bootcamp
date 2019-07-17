@@ -39,5 +39,17 @@ rosa.saludar()
 rosa.cortar_pata()
 rosa.saludar()
 
+class TRex(Dino):
+    def __init__(self, nombre, patas=4, color=None):
+        self.nombre = nombre
+        self.patas = patas
+        self.color = color
+        print("hola soy un TRex y me llamo", self.nombre)
+
+robert = TRex("Roberto el TRex")
+print(robert.ojos)
+robert.saludar()
+robert.decir_genero()
+
 
 

@@ -87,9 +87,11 @@ print(resul)
 #luego llamar a la funcion ew imprimir  el resultado 
 def resta(n1,n2):
     print(n1-n2)
-    # return n1-n2
+    return n1-n2 #return corta todo, interrumpe la ejecucion 
+    print("chau")
 
-resul=resta(4,2)
+resul=resta(4,2) #todo lo que esta en return se reemplaza en el llamado, 
+#y es necesario guardar en una variable
 print("el resultado es",resul)
 
 #return te lanza el resultado y print imprime 
@@ -115,7 +117,7 @@ saludos("will",22)
 #ej: crear una funcion suma_lista que reciba como argumento una lista de numero
 # y retorne la suma de sus elemntos 
 #pistas: usar for y una variable 
-listita=(1,2,3,4,5,6,7,8)
+listita=[1,2,3,4,5,6,7,8]
 b=0
 for c in listita:
     b=b+c
@@ -127,13 +129,13 @@ for valor in range(1,11):
     sumatoria=sumatoria+valor
 lis = [1,2,3,4]
 #otra forma
-def listita(numeros):
+def suma(numeros):
     sumatoria=0
     for valor in numeros:
         sumatoria=sumatoria+valor
     return sumatoria
-print(listita(lis))
-print(listita([1,2,3])) #tengo que poner en corchete cuando le estoy pasando un valor-lista que va a recorrer la variable
+print(suma(lis))
+print(suma([1,2,3])) #tengo que poner en corchete cuando le estoy pasando un valor-lista que va a recorrer la variable
 
 #ej2: lista al cuadrado 
 #crear una funcion que reciba una lista de numero como parametro 

@@ -45,6 +45,7 @@ print("hola soy", mujer.mi_nombre, "y mi nacionalidad es", mujer.nacionalidad )
 # y uno que sea cantidad_ruedas, y un metodo que sea definir _tipo 
 # que me diga si es "bicicleta, triciclo,auto" de acuerdo a ala cantidad de ruedas
 
+
 class Vehiculo:
     ruedas = 0
     color = ""
